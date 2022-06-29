@@ -8,6 +8,7 @@ class Messages extends BaseController
 {
     public function index()
     {
-        //
+        // return view('messages/index');
+        echo "Hello World!";
     }
 }

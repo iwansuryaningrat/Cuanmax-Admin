@@ -8,6 +8,11 @@ Cuanmax is a start-up company that serve online education in focused at trade an
 
 **Tech:**
 
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **jQuery**
+- **Bootstrap**
 - **PHP**
 - **Codeigniter 4**
 - **RESTful API**
@@ -18,12 +23,16 @@ Cuanmax is a start-up company that serve online education in focused at trade an
 - **Postman**
 - **Git**
 - **Github**
-- **GitKraken\***
+- **GitKraken**
 
 **Third Party API:**
 
 - **Midtrans**
 - **Coinmarketcap**
+
+**Admin Dashboard Template:**
+
+- **Atlantis Premium By [ThemeKita](http://www.themekita.com)**
 
 ## Used By
 

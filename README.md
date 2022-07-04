@@ -33,7 +33,8 @@ This project is used by the following companies:
 
 ## Authors
 
-- [iwansuryaningrat](https://github.com/iwansuryaningrat)
+- [Iwan Suryaningrat](https://github.com/iwansuryaningrat)
+- [Khoeru Roziqin](https://github.com/roziqinkhoeru)
 
 ## Support
 

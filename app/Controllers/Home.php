@@ -14,6 +14,7 @@ class Home extends BaseController
         // Get session data
 
     }
+
     public function index()
     {
         // $result = $this->client->get('cryptocurrency/info', [
@@ -26,5 +27,10 @@ class Home extends BaseController
 
         // dd($status, $data);
         return view('index');
+    }
+
+    public function subscribers()
+    {
+        return view('subscribers');
     }
 }

@@ -33,4 +33,9 @@ class Home extends BaseController
     {
         return view('subscribers');
     }
+
+    public function messages()
+    {
+        return view('messages');
+    }
 }

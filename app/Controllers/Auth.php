@@ -28,20 +28,27 @@ class Auth extends BaseController
         $email = $this->request->getPost('email');
         $password = $this->request->getPost('password');
         $body = json_encode([
-            'email' => $email,
-            'password' => $password,
+            'email' => 'iwan.suryaningrat28@gmail.com',
+            'password' => 'Undip.jaya123',
         ]);
         // dd($body);
 
-        $result = $client->request('POST', 'http://localhost:3000/api/v1/login', [
-            'headers' => [
-                'User-Agent' => 'testing/1.0',
-                'Accept'     => 'application/json',
-                'X-Foo'      => ['Bar', 'Baz'],
-            ],
-            'body' => $body,
-        ]);
-        dd($result);
+        try {
+            $result = $client->request('POST', 'http://localhost:3000/api/v1/login', [
+                'headers' => [
+                    'User-Agent'       => 'testing/1.0',
+                    'Content-Type'     => 'application/json',
+                    'Accept'           => '*/*',
+                    'Connection'       => 'keep-alive',
+                    'Accept-Encoding'  => 'gzip, deflate, br'
+                ],
+                'body' => $body,
+                'http_errors' => false
+            ]);
+            dd($result);
+        } catch (\Throwable $th) {
+            throw $th;
+        }
         // $data = json_decode($result->getBody(), true);
         // $status = $result->getStatusCode();
         // dd($status, $data);
